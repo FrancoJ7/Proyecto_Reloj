@@ -1,0 +1,23 @@
+body{
+    background-color: black ;
+}
+
+.reloj {
+
+    color: #fff;
+    font-size: 5rem;
+    font-family: monospace;
+    text-align: center;
+    -webkit-animation: reloj 1s ease-in-out infinite alternate;
+    -moz-animation: reloj 1s ease-in-out infinite alternate;
+    animation: reloj 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes reloj {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #2a00e6, 0 0 40px #2a00e6, 0 0 50px #2a00e6, 0 0 60px #2a00e6, 0 0 70px #2a00e6;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #2a00e6, 0 0 40px #2a00e6, 0 0 50px #2a00e6, 0 0 60px #2a00e6, 0 0 70px #2a00e6, 0 0 80px #2a00e6;
+    }
+  }
